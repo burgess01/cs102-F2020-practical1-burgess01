@@ -24,10 +24,10 @@ def convert_temperature(
 ):
     """Convert a temperature given the from_unit and the to_unit."""
     converted_temperature = 0
-    # TODO: the requested temperature conversion is Celsius --> Fahrenheit
+    # the requested temperature conversion is Celsius --> Fahrenheit
     if from_unit.value == "Celsius" and to_unit.value == "Fahrenheit":
-        converted_temperature = 0
-    # TODO: the requested temperature conversion is Fahrenheit --> Celsius
+        converted_temperature = convert_celsius_to_fahrenheit(temperature)
+    # the requested temperature conversion is Fahrenheit --> Celsius
     elif from_unit.value == "Fahrenheit" and to_unit.value == "Celsius":
-        converted_temperature = 0
+        converted_temperature = convert_fahrenheit_to_celsius(temperature)
     return converted_temperature
