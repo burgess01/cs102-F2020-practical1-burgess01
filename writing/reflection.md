@@ -1,14 +1,19 @@
-# Reflection by Add Your Name Here
+# Reflection Katie Burgess
 
 ## Using a fenced code block, please display the correct output from running your program
 
-TODO: Please provide a fenced code block that demonstrates one run of your program
+```
+
+Converting from Celsius to Fahrenheit!
+35.00 degrees in Celsius is 95.00 degrees in Fahrenheit
+
+```
 
 ## For each terminal window command, add an explanation to the following list
 
-- `cd converter`: TODO explain this command
-- `poetry install`: TODO explain this command
-- `cd ..`: TODO explain this command
+- `cd converter`: This command switches your current directory to converter.
+- `poetry install`: This command installs all the required poetry dependencies for the lab or practical we are working on.
+- `cd ..`: This command moves you back one directory.
 
 ## Please use one paragraph to explain the meaning of the following code segment
 
@@ -17,7 +22,7 @@ if __name__ == "__main__":
     typer.run(main)
 ```
 
-TODO: please provide a response to this question in one written paragraph.
+When this code segment is run in the terminal, typer.run(main) is preformed, meaning that the typer will run the main function and preform the code inside of it.
 
 ## Please use one paragraph to explain the meaning of the following test case
 
@@ -29,16 +34,16 @@ def test_convert_celsius_to_fahrenheit_floating_point():
     assert converted_temperature == approx(80, rel=1e-3)
 ```
 
-TODO: Please provide a response to this question in one written paragraph.
+This test case tests the celsius to farenheit function. It sets the temperature to a tested value, and once the convert_celsius_to_fahrenheit() function it run, it asserts the correct value, allowing for a little room for different numbers in case the float rounds to a decimal number. If the assertion is equal to the converted temperature, it will return true, and if it is not equal it will return false and let you know that you have something to fix.
 
 ## What was the greatest technical challenge that you faced and how did you overcome it?
 
-TODO: Please provide a response to this question in one written paragraph.
+My greatest technical challenge I faced was trying to understand all the code. I have never seen an 'if __name__ == "__main__":' function in a program before as I've never worked as heavily in the terminal window as I do now. Also, through looking through the code on my own, trying to make sense of the class information in 'units.py' and the third converter function in'__main__.py'. It was challenging to try to make sense of it, but through time and looking back and forth between the files helped be have a deeper understanding of how the third function worked.
 
 ## After completing this assignment, what is task that you want to practice more? Why?
 
-TODO: Please provide a response to this question in one written paragraph.
+I want to practice making sense of code, being able to look at new code and understand what the programmer meant. I also want to get better at working with the terminal window. I feel a lot more capable with it already, but making the terminal window less intimidating to use will greatly increase my capabilities as a computer science student.
 
 ## After completing this assignment, what is one experience for which you are grateful?
 
-TODO: Please provide a response to this question in one written paragraph.
+I am greatful for my experience with GitHub. Through practicing in the labs, I feel a lot more confortable copying directories and using commands such as 'git add', 'git commit', and 'git push'.
