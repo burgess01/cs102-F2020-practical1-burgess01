@@ -13,7 +13,7 @@ def convert_celsius_to_fahrenheit(temperature: float):
 def convert_fahrenheit_to_celsius(temperature: float):
     """Convert the provided temperature from Fahrenheit to Celsius."""
     # convert the temperature from Fahrenheit to Celsius
-    converted_temperature = ((temperature - 32) * (5 / 9))
+    converted_temperature = (temperature - 32) * (5 / 9)
     return converted_temperature
 
 

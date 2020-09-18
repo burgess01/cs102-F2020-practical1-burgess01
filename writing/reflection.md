@@ -46,4 +46,4 @@ I want to practice making sense of code, being able to look at new code and unde
 
 ## After completing this assignment, what is one experience for which you are grateful?
 
-I am greatful for my experience with GitHub. Through practicing in the labs, I feel a lot more confortable copying directories and using commands such as 'git add', 'git commit', and 'git push'.
+I am grateful for my experience with GitHub. Through practicing in the labs, I feel a lot more confortable copying directories and using commands such as 'git add', 'git commit', and 'git push'. These experiences made the practical a lot easier than it would have been otherwise.
